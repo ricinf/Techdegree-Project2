@@ -1,0 +1,356 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-family: 'Indie Flower', cursive, sans-serif;
+}
+
+.profile img {
+    padding:10px;
+    margin-top: 60px;
+}
+
+.main-nav li {
+    list-style-type: none;
+}
+
+.main-nav a {
+    display: block;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    margin-left: -25px;
+    text-decoration: none; 
+    color: black;
+    font-weight: bold;
+    font-size: 1.8rem;    
+}
+
+.main-nav a:visited {
+    color: black;
+}
+
+.main-nav a:hover {
+    color: black;
+}
+
+.main-header,
+.main-footer {
+    background-color: whitesmoke; 
+    padding-top: 20px;
+    min-width: 320px;
+}
+
+.text-align {
+    text-align: center;
+}
+
+p {
+    line-height: 1.9rem;
+    padding: 0px 25px;
+    font-size: 1.5rem;
+    color: grey;
+    padding-bottom: 45px;
+}
+
+img {
+    max-width: 320px;
+    margin: 0;
+}
+
+.main-footer h2 {
+    padding-top: 30px;
+}
+
+.phone,
+.email {
+    display: block;
+    line-height: 3.4rem;
+    font-size: 1.5rem;
+    color: grey;
+    padding: 0px 25px;
+}
+
+
+strong {
+    padding-left: 30px;
+}
+
+.bottom-footer:before {
+    content: " ";
+    display: block;
+    border-top: 1px solid lightgray;
+    padding-bottom: 2rem;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+.bottom-footer {
+    position: relative;
+    padding-bottom: 10%;
+    padding-top: 5%; 
+}
+
+.name {
+    position: absolute;
+    left: 5%;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.back {
+    position: absolute;
+    right: 5%;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.bottom-footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.bottom-footer a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.bottom-footer a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.home-bottom, 
+.portfolio-bottom,
+.contact-bottom {
+    visibility: hidden;
+}
+
+@media screen and (min-width: 768px) {
+.group:after {
+        content: "";
+        display: table;
+        clear: both; 
+}
+
+.main-content {
+    min-width: 768px;
+}   
+
+body {
+    background-color: lightgreen;
+}
+
+.main-nav {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.main-nav a {
+    background-color: transparent;
+}
+
+.home-list {
+    position: absolute;
+    left: 34%;
+}
+
+.portfolio-list {
+    position: absolute;
+    left: 48%;
+}
+
+.contact-list {
+    position: absolute;
+    left: 65%;
+}
+
+.profile img {
+    float:right;
+    width: 35%;
+}
+
+.profile p {
+    width: 65%;
+    float: left;
+    margin-top: 4.8rem;
+}
+
+.marketing {
+    float:left;
+    width: 50%;
+}
+
+.search {
+    float:right;
+    width: 50%;
+}
+
+.travel {
+    float:left;
+    width: 50%;
+}
+
+.map {
+    float:right;
+    width: 50%;
+}
+
+.photos {
+    float:left;
+    width: 50%;
+}
+
+.calculator {
+    float:right;
+    width: 50%;
+}
+
+.main-header,
+.main-footer {
+    min-width: 768px;
+}
+
+img {
+    max-width: 320px;
+}
+
+.back {
+    visibility: hidden;
+}
+
+.home-bottom, 
+.portfolio-bottom,
+.contact-bottom {
+    visibility: visible;
+}
+
+.home-bottom {
+    position: absolute;
+    right: 35%;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.portfolio-bottom {
+    position: absolute;
+    right: 20%;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.contact-bottom {
+    position: absolute;
+    right: 5%;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+
+}
+
+@media screen and (min-width:1024px) {
+      
+    .flex {
+        display: flex; 
+        width: 31%;
+        justify-content: space-around;
+        margin: .5rem;
+        flex-wrap: wrap;
+        max-width: 400px;
+        
+    }
+
+    .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px;
+        position: relative;
+        padding-top: 30px;
+        max-width: 1440px;
+        margin-right: 0;
+    
+    }
+
+    .main-content p {
+        height: 225px;
+        color: white;
+    }
+    .portfolio  {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+    }
+    .main-content img {
+        width: 320px;
+        height: 200px;
+        padding:1rem;
+        
+    }
+    .main-content h2 {
+        margin: 0;
+    }
+
+.main-header,
+.main-footer {
+    min-width: 1024px;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: coral;
+}
+    
+.main-header h1 { 
+    float: left;
+    position: relative;
+    left:5%;
+    top:15%;
+}
+
+.home-list {
+    float: right;
+    position: relative;
+    left:6rem;
+    top:-6rem;
+
+}
+
+.portfolio-list{
+    float: right;
+    position: relative;
+    left:18rem;
+    top:-6rem;
+
+}
+
+.contact-list {
+    float: right;
+    position: relative;
+    left:32rem;
+    top:-6rem;
+
+}
+.nav-bar {
+    display: inline-block;
+}
+.nav-bar a {
+    margin:  0;
+}
+
+.profile img {
+    margin: 0 auto;
+    margin-right: 20px;
+    padding-bottom: 40px;
+}
+.profile p {
+    margin: 0;
+
+}
+
+}
