@@ -125,8 +125,21 @@ strong {
 
 .home-bottom, 
 .portfolio-bottom,
-.contact-bottom {
+.contact-bottom,
+.skills-bottom {
     visibility: hidden;
+}
+
+.skills {
+    background-color: cornflowerblue;
+    overflow: hidden;
+    color: white;
+    min-width: 320px;
+}
+.skills li {
+    list-style-type: none;
+    text-align: center;
+    line-height: 5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -156,17 +169,21 @@ body {
 
 .home-list {
     position: absolute;
-    left: 34%;
+    left: 24%;
 }
 
 .portfolio-list {
     position: absolute;
-    left: 48%;
+    left: 38%;
 }
 
 .contact-list {
     position: absolute;
-    left: 65%;
+    left: 55%;
+}
+.skills-list {
+    position: absolute;
+    left:75%;
 }
 
 .profile img {
@@ -225,29 +242,48 @@ img {
 
 .home-bottom, 
 .portfolio-bottom,
-.contact-bottom {
+.contact-bottom,
+.skills-bottom {
     visibility: visible;
 }
 
 .home-bottom {
     position: absolute;
-    right: 35%;
+    right: 38%;
     font-weight: bold;
     font-size: 1.4rem;
 }
 
 .portfolio-bottom {
     position: absolute;
-    right: 20%;
+    right: 25%;
     font-weight: bold;
     font-size: 1.4rem;
 }
 
 .contact-bottom {
     position: absolute;
+    right: 13%;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.skills-bottom {
+    position: absolute;
     right: 5%;
     font-weight: bold;
     font-size: 1.4rem;
+}
+
+
+.skills {
+    background-color: cornflowerblue;
+    overflow: hidden;
+    color: white;
+}
+.skills li {
+    list-style-type: none;
+    text-align: center;
+    line-height: 5rem;
 }
 
 
@@ -316,7 +352,7 @@ body {
 .home-list {
     float: right;
     position: relative;
-    left:6rem;
+    left:0rem;
     top:-6rem;
 
 }
@@ -324,7 +360,7 @@ body {
 .portfolio-list{
     float: right;
     position: relative;
-    left:18rem;
+    left:12rem;
     top:-6rem;
 
 }
@@ -332,9 +368,16 @@ body {
 .contact-list {
     float: right;
     position: relative;
-    left:32rem;
+    left:25rem;
     top:-6rem;
 
+}
+
+.skills-list {
+    float: right;
+    position: relative;
+    left:35rem;
+    top:-6rem;
 }
 .nav-bar {
     display: inline-block;
@@ -351,6 +394,16 @@ body {
 .profile p {
     margin: 0;
 
+}
+.skills {
+    background-color: cornflowerblue;
+    overflow: hidden;
+    color: white;
+}
+.skills li {
+    list-style-type: none;
+    text-align: center;
+    line-height: 5rem;
 }
 
 }
